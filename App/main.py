@@ -3,7 +3,7 @@ import os, Gui.notebook
 
 def Start(params):
 	
-	Auto_Start = 0
+	Auto_Start = 1
 
 	song_output_path = os.path.join(params['Gdrive'], "Music", "SDR_song_017")
 
